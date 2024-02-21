@@ -1,0 +1,33 @@
+.statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.statList{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;
+
+}
+.item{
+    display: flex;
+    flex-direction: column-reverse;
+    border: solid 1px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.67;
+    letter-spacing: 0.03em;
+    background-color: greenyellow;
+}
+
+.percentage {
+    justify-content: center;
+    display: flex;
+}
